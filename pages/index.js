@@ -26,6 +26,7 @@ function HomePage(props) {
 }
 
 // getStaticProps est une fonction qui en prod s'éxécute au build au niveau du serveur (et non du navigateur)
+// elle permet de générer des HTMLs rapidemment accessibles
 export async function getStaticProps () {
   // fetch data from an API
 
